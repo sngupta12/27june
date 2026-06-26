@@ -1,4 +1,4 @@
-name: Terraform Demos
+name: Terraform Demos1
 
 on:
   workflow_dispatch: # Isse UI par manual run ka button aa jayega
@@ -7,9 +7,6 @@ jobs:
   terraform:
     runs-on: self-hosted
 
-    defaults:
-      run:
-        shell: cmd # Windows runner ke liye cmd force kar diya taaki fail na ho
 
     steps:
       # 1. Download repository code
